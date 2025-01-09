@@ -4,9 +4,10 @@ import { useState } from 'react';
 import { Search } from 'lucide-react';
 
 interface SearchResult {
-  name?: string;
-  headline?: string;
-  [key: string]: any;
+  FirstName?: string;
+  LastName?: string;
+  Headline?: string;
+  [key: string]: string | number | boolean | undefined;
 }
 
 export default function SearchBar() {
