@@ -22,7 +22,7 @@ export default function SearchBar() {
     setError(null);
     
     try {
-      const response = await fetch(`http://localhost:8000/api/search?question=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://chakra-python-backend.onrender.com/api/search?question=${encodeURIComponent(query)}`);
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
