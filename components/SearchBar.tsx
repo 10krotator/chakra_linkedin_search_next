@@ -51,7 +51,7 @@ export default function SearchBar() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search profiles..."
+          placeholder="Ex: What profiles are from Stockhom, Sweden? ..."
           className="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
         />
