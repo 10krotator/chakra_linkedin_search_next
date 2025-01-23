@@ -13,7 +13,7 @@ export default function Home() {
             height={80}
             className="mb-2"
             />
-          <h1 className="text-4xl font-bold text-center mb-8 leading-tight tracking-tighter">Chakra LinkedIn Profile Search</h1>
+          <h1 className="text-4xl font-bold text-center mb-8 leading-tight tracking-tighter">LinkedIn Profile Search</h1>
           <SearchBar />
         </div>
       </main>
